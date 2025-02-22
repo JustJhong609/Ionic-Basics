@@ -6,9 +6,9 @@ const calculateBmi = () => {
     const enteredHeight = +heightInput.value;
     const enteredWeight = +weightInput.value;
 
-    const bmi = enteredWeight /(entered * enteredHeight);
+    const bmi = enteredWeight /(enteredWeight * enteredHeight);
 
-    console/log/(bmi);
+    console.log(bmi);
 };
 
 calculateBtn.addEventListener('click', calculateBmi);
